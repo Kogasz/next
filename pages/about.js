@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { useState } from "react";
+
 const ItemList = ({ items }) => {
     return (
       <ul>
